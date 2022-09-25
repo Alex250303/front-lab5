@@ -1,0 +1,48 @@
+/* Task 1 */
+h3 {
+    text-align: center;
+}
+
+input[type='text'] {
+    border: 1px gray solid;
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+}
+
+fieldset {
+    width: 300px;
+    margin: 0 auto;
+    display: inline;
+}
+
+div {
+    width: max-content;
+    margin: 0 auto;
+    padding:0 40px ;
+}
+
+#task1{
+    display: flex;
+    flex-direction: row;
+}
+
+form {
+    display: flex;
+}
+
+/* Task 2 */
+table, td {
+    border: 1px solid #666464;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+

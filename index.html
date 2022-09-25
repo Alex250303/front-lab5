@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="JavaScript. Події. Регулярні вирази">
+        <meta name="description" content="Створення форми, таблиці, зміна кольору клітинок головної діагоналі таблиці, на випадковий, на обраний з палітри">
+        <link rel="stylesheet" href="style.css">
+        <title>Косюк О. Б. ІС-01 Лабораторна робота №5 Вар73</title>
+    </head>
+    <body>
+        <h2>Завдання 1</h2>
+        <h3>Форма для заповнення</h3>
+        <div id='task1'>
+            <fieldset>
+                <label for='name'>ПІБ</label>
+                <input id='name' type='text' placeholder='ТТТТТТ Т.Т.'>
+                <label for='group'>Група</label>
+                <input id='group' type='text' placeholder='ТТ-ЧЧ'>
+                <label for='number'>Телефон</label>
+                <input id='number' type='text' placeholder='ЧЧЧ-ЧЧЧ-ЧЧ-ЧЧ'>
+                <label for='faculty'>Факультет</label>
+                <input id='faculty' type='text' placeholder='ТТТТ'>
+                <label for='address'>Адреса</label>
+                <input id='address' type='text' placeholder='м. ЧЧЧЧЧЧ'>
+                <button type='button' onclick='submit()'>Підтвердити</button>  
+            </fieldset>
+        </div>
+        <h2>Завдання 2</h2>
+        <label for='current_color'>Оберіть колір </label><input id='current_color' type='color'>
+    </body>
+    <script src="script.js"></script>
+</html>
